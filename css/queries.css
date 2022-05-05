@@ -347,6 +347,12 @@
         font-size: 12px;
         padding: 5px;
     }
+
+
+    .socialMedia .tarjeta {
+        width: 80%;
+        height: 325px;
+    }
 }
 
 
