@@ -226,7 +226,7 @@
 
     .headerTexto {
         width: 60%;
-        top: 16%;
+        top: 30%;
     }
 
     #info {
@@ -313,6 +313,40 @@
         width: 90%;
     }
 
+}
+
+@media ( max-width: 450px ) {
+    
+    .nav-bar img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .newEnlaces #git img{
+        height: 29px;
+    }
+
+    .newEnlaces {
+        gap: 17px;
+    }
+
+    .nav-bar {
+        top: 10px;
+        left: 10px;
+    }
+
+    .header h1 {
+        font-size: 45px;
+    }
+
+    .header p {
+        font-size: 12px;
+    }
+
+    .header button {
+        font-size: 12px;
+        padding: 5px;
+    }
 }
 
 
