@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+#fondoHeader{
+    width: 100%;
+    height: auto;
+    filter: brightness(35%);
+}
+
+.nav-bar{
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.nav-bar img{
+    width: 50px;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.enlaces a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 6px;
+}
+.enlaces a:hover{
+    border-bottom: 4px solid white;
+}
+
+
+.headerTexto{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 50%;
+}
+
+.header h1{
+    color: white;
+    font-size: 110px;
+}
+
+.header span{
+    border-bottom: 5px solid rgb(52 88 191);
+}
+
+#info{
+    margin-top: 30px;
+}
+
+.header p{
+
+    color: white;
+    font-size: 20px;
+}
+
+.header button{
+    padding: 14px;
+    background-color: rgb(52 88 191);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.header button:hover{
+
+    background-color: rgb(25 44 98);
+    transition: .4s;
+}
+
+/* INFORMACION PERSONAL */
+.wrapped{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personalInfo{
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #273b49;
+}
+
+.personalInfo .info{
+    width: 45%;
+    padding: 0px 70px;
+}
+
+.personalInfo img{
+    width: 500px;
+    border-radius: 100%;
+}
+
+.personalInfo h2{
+    width: auto;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.personalInfo span{
+    color: rgb(52 88 191);
+}
+
+.personalInfo p{
+    color:#687782 ;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 25px;
+}
+
+/* ACTIVIDADES ACTUALES */
+.currentActivities{
+    height: 2000px;
+}
+
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }

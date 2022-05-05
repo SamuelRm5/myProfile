@@ -1,0 +1,358 @@
+
+
+@media( max-width: 1250px ){
+
+    body h2 {
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    /* ------- HEADER ------- */
+
+    .headerTexto {
+        top: 23%;
+    }
+
+    .header h1 {
+        font-size: 75px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+
+    .header button {
+        padding: 10px;
+    }
+
+    /* ------- WHO'S SAMUEL ------- */
+
+    .personalInfo {
+        padding: 120px 0px;
+    }
+
+    .wrapped {
+        width: 90%;
+    }
+
+    .personalInfo img {
+        width: 430px;
+    }
+
+    .info {
+        padding: 0px 55px;
+    }
+
+    /* ------- MY FORMATION ------- */
+
+    .currentActivities {
+        padding: 120px 0px;
+    }
+
+    /* ------- MY SOCIAL MEDIA ------- */
+
+    .socialMedia {
+        padding: 120px 0px;
+    }
+
+    #decoration1 {
+        right: -477px;
+        top: -54px;
+    }
+
+    #decoration2 {
+        right: -455px;
+        top: -146px;
+    }
+
+    .currentActivities img {
+        width: 430px;
+    }
+
+   
+}
+
+@media ( max-width: 1100px ){
+
+    .nav-bar {
+        width: 94%;
+    }
+
+    .nav-bar img {
+        width: 37px;
+    }
+    
+    .header h1 {
+        font-size: 50px;
+    }
+    .header p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .header button {
+        padding: 5px;
+        font-weight: 100;
+        font-size: 12px;
+    }
+
+    body h2 {
+        margin-bottom: 20px;
+        font-size: 33px;
+    }
+
+    body p {
+        line-height: 23px;
+        font-size: 13px;
+    }
+
+    .personalInfo img {
+        width: 350px;
+    }
+
+    /* ------- MY FORMATION ------- */
+
+    .currentActivities img {
+        width: 350px;
+    }
+
+    /* ------- MY SOCIAL MEDIA ------- */
+
+    .socialMedia .tarjeta {
+        width: 245px;
+        height: 360px;
+    }
+
+    .socialMedia .tarjeta button {
+        padding: 5px;
+    }
+
+    #decoration1 {
+        width: 80px;
+        right: -359px;
+        top: -54px;
+    }
+
+    #decoration2 {
+        right: -340px;
+        top: -127px;
+        width: 60px;
+    }
+
+    .tarjeta h3 {
+        font-size: 23px;
+    }
+
+}
+
+@media ( max-width: 800px ) {
+
+    .nav-bar {
+        top: 10px;
+        width: 90%;
+    }
+    
+    .enlaces{
+        display: none;
+    }
+
+    .newEnlaces{
+        display: block;
+    }
+
+    .newEnlaces{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .newEnlaces a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        padding-bottom: 6px;
+    }
+    .newEnlaces a:hover{
+        transform: scale(1.1, 1.1);
+    }
+
+    /* ------- WHO'S SAMUEL ------- */
+
+    .personalInfo {
+        padding: 55px 0px;
+    }
+
+    .wrapped {
+        width: 100%;
+    }
+
+    .info {
+        padding: 0px 55px;
+        width: 85%;
+    }
+
+    .info p{
+        margin-bottom: 50px;
+    }
+
+    .personalInfo img {
+        width: 350px;
+        border-radius: 25px;
+    }
+
+    /* ------- MY FORMATION ------- */
+
+    .currentActivities {
+        padding: 55px 0px;
+    }
+
+    /* ------- MY SOCIAL MEDIA ------- */
+
+    .decorations{
+        display: none;
+    }
+
+    .socialMedia {
+        padding: 55px 0px;
+    }
+
+    .socialMedia h2 {
+        margin-bottom: 55px;
+    }
+
+    .socialMedia .tarjeta {
+        width: 180px;
+        height: 335px;
+    }
+
+    .socialMedia .tarjeta button {
+        bottom: -25px;
+    }
+
+    #subir img {
+        width: 25px;
+    }
+
+
+}
+
+
+@media( max-width:320px ){
+    #fondoHeader{
+        display: none;
+    }
+
+    #smallBuho{
+        display: block;
+        width: 100%;
+        filter: brightness(35%);
+    }
+
+    #info {
+        margin-top: 10px;
+    }
+
+    .nav-bar {
+        left: 7px;
+        top: 7px;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .nav-bar img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .newEnlaces {
+        gap: 15px;
+    }
+
+    .newEnlaces a img{
+        width: 15px;
+    }
+
+    .newEnlaces a {
+        padding: 0;
+    }
+
+    .header h1 {
+        font-size: 33px;
+    }
+
+    .header p {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .header button {
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+    #correo {
+        left: -86px;
+        bottom: 83px;
+        font-size: 10px;
+    }
+
+    #subir {
+        right: 0px;
+        bottom: 0px;
+    }
+
+    /* WHO'S SAMUEL */
+
+    .personalInfo {
+        padding: 25px 0px;
+    }
+
+    body h2 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .info {
+        padding: 0px;
+    }
+
+    .personalInfo img {
+        width: 265px;
+    }
+
+    /* MY FORMATION */
+
+    .currentActivities {
+        padding: 25px 0px;
+    }
+
+    .currentActivities img {
+        width: 275px;
+    }
+
+    .tarjeta {
+        width: 250px;
+        padding: 10px;
+    }
+
+    .socialMedia .tarjeta {
+        width: 80%;
+        height: 260px;
+    }
+
+    .socialMedia .tarjeta img {
+        width: 22%;
+        margin-bottom: 10px;
+    }
+
+    .socialMedia .tarjeta button {
+        bottom: -10px;
+    }
+
+    .footer {
+        height: 55px;
+    }
+}
