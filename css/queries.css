@@ -1,5 +1,13 @@
 @media ( max-width: 1550px ) {
 
+    #decoration1{
+        right: -420px;
+    }
+
+    #decoration2{
+        right: -400px;
+    }
+
     .headerTexto {
         top: 22%;
     }
@@ -151,12 +159,12 @@
 
     #decoration1 {
         width: 80px;
-        right: -359px;
+        right: -317px;
         top: -54px;
     }
 
     #decoration2 {
-        right: -340px;
+        right: -305px;
         top: -127px;
         width: 60px;
     }
