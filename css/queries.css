@@ -316,6 +316,17 @@
 }
 
 @media ( max-width: 450px ) {
+
+    #correo {
+        left: -85px;
+        bottom: 60px;
+        font-size: 10px;
+    }
+
+    #subir {
+        right: 5px;
+        bottom: 10px;
+    }
     
     .nav-bar img {
         width: 25px;
