@@ -1,4 +1,26 @@
+@media ( max-width: 1550px ) {
 
+    .headerTexto {
+        top: 22%;
+    }
+
+    .header h1 {
+        font-size: 95px;
+    }
+
+    .header p {
+        font-size: 17px;
+    }
+
+    .header button {
+        padding: 10px;
+    }
+
+    .wrapped {
+        width: 90%;
+    }
+
+}
 
 @media( max-width: 1250px ){
 
@@ -147,6 +169,16 @@
 
 @media ( max-width: 800px ) {
 
+    #fondoHeader{
+        display: none;
+    }
+
+    #smallBuho{
+        display: block;
+        width: 100%;
+        filter: brightness(35%);
+    }
+
     .nav-bar {
         top: 10px;
         width: 90%;
@@ -177,6 +209,28 @@
     }
     .newEnlaces a:hover{
         transform: scale(1.1, 1.1);
+    }
+
+    .header h1 {
+        font-size: 70px;
+    }
+
+    .header p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .header button {
+        padding: 10px;
+    }
+
+    .headerTexto {
+        width: 60%;
+        top: 16%;
+    }
+
+    #info {
+        margin-top: 15px;
     }
 
     /* ------- WHO'S SAMUEL ------- */
@@ -236,6 +290,28 @@
         width: 25px;
     }
 
+
+}
+
+@media ( max-width:600px ) {
+    
+    .header h1 {
+        font-size: 55px;
+    }
+
+    .header p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .header button {
+        padding: 8px;
+    }
+
+    .info {
+        padding: 0px 30px;
+        width: 90%;
+    }
 
 }
 
