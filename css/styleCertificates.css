@@ -8,6 +8,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+hr{
+    width: 85%;
+    border: none;
+    height: 1px;
+    background-color: #b8b8b8;
+}
+
+hr{
+    display: none;
+}
+
 #reco{
     padding: 0px 20px;
     text-align: center;
@@ -42,6 +54,7 @@ body h1{
     margin-bottom: 15px;
     font-size: 23px;
     font-family: 'Radio Canada', sans-serif;
+    color: #273b49;
 }
 
 body p{
@@ -76,7 +89,6 @@ span{
 .info{
     padding: 20px;  
     width: 60%;
-    border-right: 1px solid gray;
 }
 
 .img{
@@ -153,7 +165,6 @@ span{
 
     .info {
         width: 100%;
-        border-bottom: 1px solid gray;
     }
 
     .img {
@@ -183,6 +194,37 @@ span{
     .recoMv{
         display: block;
     }
+
+    hr{
+        display: block;
+    }
 }
 
+@media ( max-width: 425px ) {
+
+    #reco{
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .borde{
+        font-size: 30px;
+        height: 75px;
+    }
+
+    .borde img {
+        width: 40px;
+        right: -30px;
+    }
+
+    #back {
+        width: 20px;
+    }
+
+    .certificate {
+        width: 85%;
+    }
+
+    
+}
 
