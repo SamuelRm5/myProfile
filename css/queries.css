@@ -1,5 +1,9 @@
 @media ( max-width: 1550px ) {
 
+    .personalInfo {
+        padding: 100px 0px;
+    }
+
     #decoration1{
         right: -420px;
     }
