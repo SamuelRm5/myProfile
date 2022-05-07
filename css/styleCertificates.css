@@ -202,6 +202,10 @@ span{
 
 @media ( max-width: 425px ) {
 
+    .img img:hover {
+        transform: scale(1.5,1.5);
+    }
+
     #reco{
         font-size: 11px;
         line-height: 15px;

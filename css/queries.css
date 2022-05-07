@@ -1,5 +1,9 @@
 @media ( max-width: 1550px ) {
 
+    .info{
+        padding: 0px 40px;
+    }
+
     .personalInfo {
         padding: 100px 0px;
     }
@@ -30,6 +34,10 @@
 
     .wrapped {
         width: 90%;
+    }
+
+    .info {
+        width: 50%;
     }
 
 }
