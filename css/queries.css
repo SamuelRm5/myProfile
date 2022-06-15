@@ -511,4 +511,9 @@
         top: 20%;
     }
 
+    .socialMedia .tarjeta {
+        width: 80%;
+        height: 300px;
+    }
+
 }
