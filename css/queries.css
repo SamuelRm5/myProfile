@@ -503,3 +503,12 @@
         height: 55px;
     }
 }
+
+@media( max-width:300px ){
+
+    .headerTexto {
+        width: 100%;
+        top: 20%;
+    }
+
+}
